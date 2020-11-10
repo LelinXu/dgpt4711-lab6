@@ -10,5 +10,4 @@ use App\Models\Simple\JSONModel;
 class Places extends JSONModel {
  protected $origin = WRITEPATH . 'data/placesData.json'; 
  protected $keyField = 'id'; protected $validationRules = []; 
-
 }
